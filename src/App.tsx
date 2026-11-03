@@ -42,7 +42,15 @@ function App() {
       <hr />
       <h2>Total: {total}</h2>
       <button onClick={() => { setTotal(numero + numero2) }}>Suma</button>
-      {/* <Nosotros /> */}
+
+      <Nosotros title='Amor a primera vista' negrita={true}
+        text="Se logró 1 mes de contacto 0" btnText="Celebrar" />
+
+      <Nosotros text="Texto genérico" btnText="Click" />
+
+      <b>bold</b>
+      <br />
+      <strong>fuerte</strong>
     </>
   )
 }
