@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Fruta from './Fruta'
+import Fruta from './components/fruta/Fruta'
 
 const Lista = () => {
     const [lista, setLista] = useState(["Manzana", "Pera", "Sandía"])
@@ -7,7 +7,7 @@ const Lista = () => {
     return (
         <>
             <h1>Hola</h1>
-
+            <h3>titulo independiente</h3>
             {
                 lista.map(fruta => <Fruta title={fruta} />)
             }

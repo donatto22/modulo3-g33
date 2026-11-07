@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Nosotros from './Nosotros'
+import Nosotros from './components/nosotros/Nosotros'
 import './app.css'
 
 function App() {
